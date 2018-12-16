@@ -18,7 +18,7 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/howto-embedded-we
 - application.properties > server.http2.enabled=true 추가
 - WAS마다 추가 설정이 다름
     - tomcat: 9버전부터 추가 설정이 필요없음
-        - DK9와 Tomcat 9+ 추천
+        - JDK9와 Tomcat 9+ 추천
           그 이하는 아래 링크 참고
           https://docs.spring.io/spring-boot/docs/current/reference/html/howto-embedded-web-servers.html#howto-configure-http2-tomcat
 - curl -I -k --http2 https://localhost:8443/hello          
